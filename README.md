@@ -29,9 +29,3 @@ To enable / disable type checking you can either open command pallete and type: 
 
 - Windows / Linux shortcut: `ctrl+shift+t` + `s`
 - Mac shortcut: `cmd+shift+t` + `s`
-
-## Release Notes
-
-### 1.0.0
-
-- First Version
