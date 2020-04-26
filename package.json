@@ -1,63 +1,77 @@
 {
-	"name": "ts-checkmyjs",
-	"displayName": "TS-CheckMyJS",
-	"description": "On demand type-checking for JavaScript files",
-	"publisher": "Iannes",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Iannes/ts-check-my-js"
-	  },
-	
-	"version": "1.0.0",
-	"engines": {
-		"vscode": "^1.44.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-        "onCommand:TS-CheckMyJS.enableTSCheck"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "TS-CheckMyJS.enableTSCheck",
-                "title": "TS Check"
-			},
-			{
-				"command": "TS-CheckMyJS.disableTSCheck",
-                "title": "Disable TS Check"
-			}
-		],
-		"keybindings": [
-			{
-			  "command": "TS-CheckMyJS.enableTSCheck",
-			  "key": "ctrl+shift+t ctrl+shift+s",
-			  "mac": "cmd+shift+t cmd+shift+s",
-			  "when": "editorTextFocus"
-			}
-		  ]
-	},
-	"scripts": {
-		"vscode:prepublish": "yarn run compile",
-		"compile": "tsc -p ./",
-		"lint": "eslint src --ext ts",
-		"watch": "tsc -watch -p ./",
-		"pretest": "yarn run compile && yarn run lint",
-		"test": "node ./out/test/runTest.js"
-	},
-	"devDependencies": {
-		"@types/vscode": "^1.44.0",
-		"@types/glob": "^7.1.1",
-		"@types/mocha": "^7.0.2",
-		"@types/node": "^13.11.0",
-		"eslint": "^6.8.0",
-		"@typescript-eslint/parser": "^2.26.0",
-		"@typescript-eslint/eslint-plugin": "^2.26.0",
-		"glob": "^7.1.6",
-		"mocha": "^7.1.1",
-		"typescript": "^3.8.3",
-		"vscode-test": "^1.3.0"
-	}
+  "name": "ts-checkmyjs",
+  "displayName": "TS-CheckMyJS",
+  "description": "On demand type-checking for JavaScript files",
+  "publisher": "Iannes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iannes/ts-check-my-js"
+  },
+  "icon": "images/ts.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "syntax",
+    "types",
+    "javascript",
+    "typescript",
+    "add javascript types",
+    "TS to JS",
+    "Convert",
+    "Converter",
+    "Generate",
+    "check my javascript files",
+    "typed javascript"
+  ],
+  "activationEvents": [
+    "onCommand:TS-CheckMyJS.enableTSCheck"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "TS-CheckMyJS.enableTSCheck",
+        "title": "TS Check"
+      },
+      {
+        "command": "TS-CheckMyJS.disableTSCheck",
+        "title": "Disable TS Check"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "TS-CheckMyJS.enableTSCheck",
+        "key": "ctrl+shift+t ctrl+shift+s",
+        "mac": "cmd+shift+t cmd+shift+s",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint src --ext ts",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.44.0",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.11.0",
+    "eslint": "^6.8.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "glob": "^7.1.6",
+    "mocha": "^7.1.1",
+    "typescript": "^3.8.3",
+    "vscode-test": "^1.3.0"
+  }
 }
