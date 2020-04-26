@@ -21,6 +21,7 @@
     "VSCode",
     "syntax",
     "types",
+    "lint",
     "javascript",
     "typescript",
     "add javascript types",
@@ -29,7 +30,8 @@
     "Converter",
     "Generate",
     "check my javascript files",
-    "typed javascript"
+    "typed javascript",
+    "lint my js"
   ],
   "activationEvents": [
     "onCommand:TS-CheckMyJS.enableTSCheck"
