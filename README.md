@@ -1,17 +1,19 @@
 # TS-CheckMyJS Extension for VS Code
 
-Enables type checking for all JavaScript files in VS Code. 
+[![Version](https://vsmarketplacebadge.apphb.com/version/Iannes.ts-checkmyjs.svg)](https://marketplace.visualstudio.com/items?itemName=Iannes.ts-checkmyjs)
+
+Enables type checking for all JavaScript files in VS Code.
 To enable / disable type checking you can either open command pallete and type: > TS Check
 
 ## Features
 
 This extension contributes the following line to [settings.json](https://code.visualstudio.com/docs/customization/userandworkspace):
-  
-  ```json
-  {
-    "javascript.implicitProjectConfig.checkJs": true,
-  }
-  ```
+
+```json
+{
+  "javascript.implicitProjectConfig.checkJs": true
+}
+```
 
 # Installation
 
