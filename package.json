@@ -2,6 +2,12 @@
 	"name": "ts-checkmyjs",
 	"displayName": "TS-CheckMyJS",
 	"description": "On demand type-checking for JavaScript files",
+	"publisher": "Iannes",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Iannes/ts-check-my-js"
+	  },
+	
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.44.0"
