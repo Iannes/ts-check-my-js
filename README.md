@@ -1,7 +1,6 @@
 # TS-CheckMyJS Extension for VS Code
 
 Enables type checking for all JavaScript files in VS Code. 
-
 To enable / disable type checking you can either open command pallete and type: > TS Check
 
 ## Features
@@ -24,7 +23,7 @@ This extension contributes the following line to [settings.json](https://code.vi
 
 ## Shortcuts
 
-To enable / disable type checking you can either open command pallete and type: > Enable TS Check or use the shortcuts below:
+To enable / disable type checking you can either open command pallete and type: > TS Check or use the shortcuts below:
 
 - Windows / Linux shortcut: `ctrl+shift+t` + `s`
 - Mac shortcut: `cmd+shift+t` + `s`
