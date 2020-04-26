@@ -13,6 +13,8 @@
     "vscode": "^1.44.0"
   },
   "categories": [
+    "Linters",
+    "Programming Languages",
     "Other"
   ],
   "keywords": [
